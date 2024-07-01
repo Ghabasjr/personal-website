@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" data-testid="container">
+      <header class="header" data-testid="header">
+        <h1 data-testid="display-name">Khalid Umar Muhammad</h1>
+        <p data-testid="subtitle">Aspiring Frontend Engineer</p>
+        <p data-testid="sub-title">A journey towards Becoming a tech leader.</p>
+      </header>
+      <div class="currentTimeUTC" data-testid="currentTimeUTC">
+        <p>
+          Today is:
+          <span id="dates"></span>
+        </p>
+      </div>
+      <div class="goals" data-testid="goals-div">
+        <img
+          data-testid="slackProfilePicture"
+          src="slack-profile pic.jpg"
+          alt="profile-picture"
+          class="img"
+        />
+        <p data-testid="">
+          <a href="https://hng.tech">hng.tech/learn</a>
+        </p>
+        <p><a href="https://keyword.dog">Keyword</a></p>
+        <p><a href="https://scrapeanyweb.site">Scrabeanyweb</a></p>
+        <h2 class="goals" data-testid="goals">Goals</h2>
+        <ul data-testid="goals-list">
+          <li>
+            Master advance javascript frameworks such as, React and Angular.
+          </li>
+          <li>
+            contribute to open source project to give back to the community.
+          </li>
+          <li>Build and deploy a personal portfolio showcasing my projects.</li>
+          <li>To secure a job in frontend development.</li>
+          <li>To be good at what i am into and become familiar with it.</li>
+        </ul>
+        <div class="contact">
+          <h3>Contact Me</h3>
+          <p data-testid="slackEmail">khalidumar089@gmail.com</p>
+        </div>
+      </div>
+      <footer data-testid="footer">
+        <p>&copy; 2024 My tech journey</p>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
